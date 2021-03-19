@@ -6,10 +6,7 @@ class ExperienceCard extends Component {
     const experience = this.props.experience;
     const theme = this.props.theme;
     return (
-      <div
-        className="experience-card"
-        style={{ border: `1px solid ${experience["color"]}` }}
-      >
+      <div className="experience-card" style={{ border: `1px solid #d3d3d3 ` }}>
         <div className="experience-card-logo-div">
           <img
             className="experience-card-logo"
@@ -54,11 +51,14 @@ class ExperienceCard extends Component {
               </p>
             </div>
           </div>
+
           <p
             className="experience-card-description"
             style={{ color: theme.text }}
           >
-            {experience["description"]}
+            {experience["description"].split("/n").map((str) => (
+              <div>{str}</div>
+            ))}
           </p>
         </div>
       </div>

@@ -4,6 +4,13 @@
   margin: 0px auto;
   margin-top: 4rem;
 }
+.portfolio-repo-btn-div {
+  display: flex;
+  flex-direction: row;
+}
+.portfolio-repo-btn {
+  margin-right: 20px;
+}
 .greet-main {
   width: 90%;
   padding: 20px 10px;
@@ -90,6 +97,7 @@
   .portfolio-repo-btn-div {
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
   }
 }
