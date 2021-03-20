@@ -35,7 +35,10 @@ export default function Greeting(props) {
                   Student Leader
                 </h2>
                 <h2 className="greeting-nickname" style={{ color: theme.text }}>
-                  Student Leader
+                  Computer Scientist
+                </h2>
+                <h2 className="greeting-nickname" style={{ color: theme.text }}>
+                  President's Scholar
                 </h2>
               </TextLoop>
               <p
