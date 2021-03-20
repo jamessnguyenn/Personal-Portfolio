@@ -11,7 +11,6 @@ class ExperienceAccordion extends Component {
         {this.props.sections.map((section) => {
           return (
             <div className="experience-section">
-              <h1>{section.title}</h1>
               {section["experiences"].map((experience) => {
                 return <ExperienceCard experience={experience} theme={theme} />;
               })}

@@ -334,11 +334,14 @@ const degrees = {
   degrees: [
     {
       title: "San Jose State University",
-      subtitle: "B.S Computer Science, 3.9 GPA",
+      subtitle: "Bachelors of Science in Computer Sciences",
       logo_path: "sjsu_logo.jpg",
       alt_name: "SJSU Logo",
       duration: "December 2021",
-      descriptions: ["Award Dean's Scholar for 6 consecutive semestes"],
+      descriptions: [
+        "• Awarded Dean's Scholar for 6 consecutive semesters",
+        "• Awarded Dean's Scholar for 6 consecutive semesters",
+      ],
       website_link: "https://www.sjsu.edu/",
     },
   ],
@@ -347,8 +350,8 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "Machine Learning",
-      subtitle: "- Andrew Ng",
+      title: "Tourtellini",
+      subtitle: "Android Application to find your way through the community",
       logo_path: "stanford_logo.png",
       certificate_link:
         "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
@@ -356,8 +359,8 @@ const certifications = {
       color_code: "#8C151599",
     },
     {
-      title: "Deep Learning",
-      subtitle: "- Andrew Ng",
+      title: "Edufy.space",
+      subtitle: "A productivity platform to edge your education",
       logo_path: "deeplearning_ai_logo.png",
       certificate_link:
         "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
@@ -365,8 +368,8 @@ const certifications = {
       color_code: "#00000099",
     },
     {
-      title: "ML on GCP",
-      subtitle: "- GCP Training",
+      title: "Spotify Party Player",
+      subtitle: "Music Queue utilizing the Spotify API to party with...",
       logo_path: "google_logo.png",
       certificate_link:
         "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
@@ -374,8 +377,8 @@ const certifications = {
       color_code: "#0C9D5899",
     },
     {
-      title: "Data Science",
-      subtitle: "- Alex Aklson",
+      title: "Success Tracker",
+      subtitle: "Resume tracker to track your way to success",
       logo_path: "ibm_logo.png",
       certificate_link:
         "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
@@ -383,8 +386,9 @@ const certifications = {
       color_code: "#1F70C199",
     },
     {
-      title: "Big Data",
-      subtitle: "- Kim Akers",
+      title: "Chatterpillar",
+      subtitle:
+        "A social media hackathon project to connect with fellow critters",
       logo_path: "microsoft_logo.png",
       certificate_link:
         "https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
@@ -392,8 +396,8 @@ const certifications = {
       color_code: "#D83B0199",
     },
     {
-      title: "Advanced Data Science",
-      subtitle: "- Romeo Kienzler",
+      title: "Edufy.space",
+      subtitle: "REST API utilized by Edufy.space, a productivity platform...",
       logo_path: "ibm_logo.png",
       certificate_link:
         "https://www.coursera.org/account/accomplishments/verify/BH2T9BRU87BH",
@@ -401,8 +405,8 @@ const certifications = {
       color_code: "#1F70C199",
     },
     {
-      title: "Advanced ML on GCP",
-      subtitle: "- GCP Training",
+      title: "Stock Case",
+      subtitle: "Android Application to view and store stocks in your case",
       logo_path: "google_logo.png",
       certificate_link:
         "https://www.coursera.org/account/accomplishments/verify/5JZZM7TNQ2AV",
@@ -410,8 +414,9 @@ const certifications = {
       color_code: "#0C9D5899",
     },
     {
-      title: "DL on Tensorflow",
-      subtitle: "- Laurence Moroney",
+      title: "Tic Tac Toe Bot",
+      subtitle:
+        "Play head to head with a Tic Tac Toe Bot and view past game histories",
       logo_path: "deeplearning_ai_logo.png",
       certificate_link:
         "https://www.coursera.org/account/accomplishments/verify/6T4DCUGNK8J8",
@@ -419,47 +424,21 @@ const certifications = {
       color_code: "#00000099",
     },
     {
-      title: "Fullstack Development",
-      subtitle: "- Jogesh Muppala",
+      title: "Google Web Scrape Sorter",
+      subtitle:
+        "Simulation of Google's Search Engine by web scraping and sorting Google Search results",
       logo_path: "coursera_logo.png",
       certificate_link:
         "https://www.coursera.org/account/accomplishments/certificate/NRANJA66Y2YA",
       alt_name: "Coursera",
       color_code: "#2A73CC",
     },
-    {
-      title: "Kuberenetes on GCP",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://google.qwiklabs.com/public_profiles/e4d5a92b-faf6-4679-a70b-a9047c0cd750",
-      alt_name: "GCP",
-      color_code: "#4285F499",
-    },
-    {
-      title: "Cryptography",
-      subtitle: "- Saurabh Mukhopadhyay",
-      logo_path: "nptel_logo.png",
-      certificate_link:
-        "https://drive.google.com/open?id=1z5ExD_QJVdU0slLkp8CBqSF3-C3g-ro_",
-      alt_name: "NPTEL",
-      color_code: "#FFBB0099",
-    },
-    {
-      title: "Cloud Architecture",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
-      alt_name: "GCP",
-      color_code: "#4285F499",
-    },
   ],
 };
 
 // Experience Page
 const experience = {
-  title: "Experience",
+  title: "Experiences",
   description:
     "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
   header_image_path: "experience.svg",
@@ -489,23 +468,6 @@ const experience = {
             "• Enhanced customer satisfaction by informing clients about new product launches and offering solutions to fulfill their needs/n• Executed activations and upgrades of various wireless phone plans as well as troubleshooted any emerging technical issues/n• Improved sales by overseeing cashflow within the department and managing inventory to meet customer needs/n• Maximized sales of electronic merchandise through demonstrations of product functionalities to customers",
           color: "#9b1578",
         },
-        {
-          title: "Food Service Attendant",
-          company: "Spartan Shops Inc",
-          company_url:
-            "https://www.linkedin.com/company/spartan-shops-inc/about/",
-          logo_path: "spartan_shops_logo.jpg",
-          duration: "Sept 2017 - July 2018",
-          location: "San Jose, California",
-          description:
-            "• Productively supported the University Food Court by assisting restaurants in maintaining daily revenue and preparing meals for customers/n• Catered to customers by maintaining the cleanliness of the Food Court and answering customer questions and concerns/n • Managed inventory by restocking napkins, utensils, and cups to ensure customer needs are satisfied/n • Assembled and packaged meals in an efficient manner for events throughout the University",
-          color: "#fc1f20",
-        },
-      ],
-    },
-    {
-      title: "Leadership Experience",
-      experiences: [
         {
           title: "Industrial Chair",
           company:

@@ -1,8 +1,9 @@
 /* header */
 
 .header {
+  background-color: #edf9fe;
   display: block;
-  max-width: 90%;
+  max-width: 100%;
   padding: 20px 10px;
   margin: 0px auto;
 }
