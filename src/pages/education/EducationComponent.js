@@ -3,7 +3,6 @@ import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
 
-import Certifications from "../../containers/certifications/Certifications";
 import CompetitiveSites from "../../components/competitiveSites/CompetitiveSites";
 import { competitiveSites } from "../../portfolio";
 import "./EducationComponent.css";
@@ -28,8 +27,6 @@ class Education extends Component {
               </div>
             </div>
           </Fade>
-
-          <Certifications theme={this.props.theme} />
         </div>
         <Footer theme={this.props.theme} />
         <TopButton theme={this.props.theme} />

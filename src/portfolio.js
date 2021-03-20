@@ -352,25 +352,25 @@ const certifications = {
     {
       title: "Tourtellini",
       subtitle: "Android Application to find your way through the community",
-      logo_path: "stanford_logo.png",
+      logo_path: "tourtellini-logo.jpg",
       certificate_link:
         "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
       alt_name: "Stanford University",
-      color_code: "#8C151599",
+      color_code: "#000000",
     },
     {
       title: "Edufy.space",
       subtitle: "A productivity platform to edge your education",
-      logo_path: "deeplearning_ai_logo.png",
+      logo_path: "edufy-logo.jpg",
       certificate_link:
         "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
       alt_name: "deeplearning.ai",
-      color_code: "#00000099",
+      color_code: "#437fc7",
     },
     {
       title: "Spotify Party Player",
       subtitle: "Music Queue utilizing the Spotify API to party with...",
-      logo_path: "google_logo.png",
+      logo_path: "spotify-logo.png",
       certificate_link:
         "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
       alt_name: "Google",
@@ -385,25 +385,7 @@ const certifications = {
       alt_name: "IBM",
       color_code: "#1F70C199",
     },
-    {
-      title: "Chatterpillar",
-      subtitle:
-        "A social media hackathon project to connect with fellow critters",
-      logo_path: "microsoft_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
-      alt_name: "Microsoft",
-      color_code: "#D83B0199",
-    },
-    {
-      title: "Edufy.space",
-      subtitle: "REST API utilized by Edufy.space, a productivity platform...",
-      logo_path: "ibm_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/BH2T9BRU87BH",
-      alt_name: "IBM",
-      color_code: "#1F70C199",
-    },
+
     {
       title: "Stock Case",
       subtitle: "Android Application to view and store stocks in your case",
@@ -422,16 +404,6 @@ const certifications = {
         "https://www.coursera.org/account/accomplishments/verify/6T4DCUGNK8J8",
       alt_name: "deeplearning.ai",
       color_code: "#00000099",
-    },
-    {
-      title: "Google Web Scrape Sorter",
-      subtitle:
-        "Simulation of Google's Search Engine by web scraping and sorting Google Search results",
-      logo_path: "coursera_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/certificate/NRANJA66Y2YA",
-      alt_name: "Coursera",
-      color_code: "#2A73CC",
     },
   ],
 };

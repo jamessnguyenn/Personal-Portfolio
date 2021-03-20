@@ -35,7 +35,7 @@
   font-family: "Google Sans Medium";
   line-height: 1.1;
   text-align: left;
-  margin-top: 80px;
+  margin-top: 30px;
 }
 
 .experience-heading-sub-text {
@@ -57,7 +57,7 @@
 @media (max-width: 1380px) {
   .experience-heading-text {
     font-size: 50px;
-    margin-top: 80px;
+    margin-top: 30px;
   }
   .experience-heading-sub-text {
     font-size: 25px;
