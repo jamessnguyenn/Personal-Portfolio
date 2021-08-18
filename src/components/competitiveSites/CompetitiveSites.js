@@ -28,7 +28,9 @@ class CompetitiveSites extends React.Component {
                     <span
                       className="iconify"
                       data-icon={logo.iconifyClassname}
-                      style={logo.style}
+                      style={{
+                        color: "#2EC866",
+                      }}
                       data-inline="false"
                     ></span>
                   </a>

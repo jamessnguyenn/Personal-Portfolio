@@ -20,15 +20,20 @@ class OrganizationList extends Component {
                   </Tooltip>
                 }
               >
-                <li className="organizations-inline" name={logo["login"]}>
-                  <Fade bottom duration={2000} distance="40px">
-                    <img
-                      className="organizations-img"
-                      src={logo["avatarUrl"]}
-                      alt={logo["login"]}
-                    />
-                  </Fade>
-                </li>
+                <Fade bottom duration={2000} distance="40px">
+                  <li className="organizations-inline" name={logo["login"]}>
+                    <span
+                      className="iconify"
+                      data-icon={logo["className"]}
+                      style={{
+                        color: "#2EC866",
+                        width: "100px",
+                        height: "auto",
+                      }}
+                      data-inline="false"
+                    ></span>
+                  </li>
+                </Fade>
               </OverlayTrigger>
             );
           })}

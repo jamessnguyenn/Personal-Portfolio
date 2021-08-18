@@ -8,11 +8,14 @@ class Organizations extends Component {
   render() {
     const theme = this.props.theme;
     return (
-      <div id="organizations">
-        <div className="organizations-header-div">
+      <div className="main" id="certs">
+        <div className="certs-header-div">
           <Fade bottom duration={2000} distance="20px">
-            <h1 className="organizations-header" style={{ color: theme.text }}>
-              Contributed Organizations
+            <h1
+              className="experience-heading-text"
+              style={{ color: theme.text }}
+            >
+              Professional Skillset
             </h1>
           </Fade>
         </div>
