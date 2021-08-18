@@ -7,9 +7,8 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Welcome",
-  description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+  title: "James Nguyen",
+  description: "James Nguyen's Portfolio",
   og: {
     title: "James's Portfolio",
     type: "website",
@@ -22,7 +21,7 @@ const greeting = {
   title: "James Nguyen",
   logo_name: "James Nguyen",
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "Hello! I'm a former Software Engineer at Varian and a Computer Science Major graduating in December 2021. Check out my experience and skills below!",
   resumeLink:
     "https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf",
   portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
@@ -334,14 +333,15 @@ const degrees = {
   degrees: [
     {
       title: "San Jose State University",
-      subtitle: "Bachelors of Science in Computer Sciences",
+      subtitle: "B.S Computer Science, 3.91 GPA",
       logo_path: "sjsu_logo.jpg",
       alt_name: "SJSU Logo",
       duration: "December 2021",
       descriptions: [
-        "• Awarded Dean's Scholar for 6 consecutive semesters",
-        "• Awarded Dean's Scholar for 6 consecutive semesters",
+        "Organizations: Society of Asian Scientists & Engineers, Vietnamese Student Association, Circle K",
+        "Achievements: Dean's Scholar, President's Scholar",
       ],
+      organizations: "",
       website_link: "https://www.sjsu.edu/",
     },
   ],
@@ -353,56 +353,44 @@ const certifications = {
       title: "Tourtellini",
       subtitle: "Android Application to find your way through the community",
       logo_path: "tourtellini-logo.jpg",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
-      alt_name: "Stanford University",
+      certificate_link: "https://devpost.com/software/project-punctual",
       color_code: "#000000",
     },
     {
       title: "Edufy.space",
       subtitle: "A productivity platform to edge your education",
       logo_path: "edufy-logo.jpg",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
-      alt_name: "deeplearning.ai",
+      certificate_link: "https://devpost.com/software/eudfy-education-for-you",
       color_code: "#437fc7",
     },
     {
       title: "Spotify Party Player",
       subtitle: "Music Queue utilizing the Spotify API to party with...",
       logo_path: "spotify-logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
-      alt_name: "Google",
+      certificate_link: "https://github.com/jamessnguyenn/Spotify-Party-Player",
       color_code: "#0C9D5899",
     },
     {
       title: "Success Tracker",
       subtitle: "Resume tracker to track your way to success",
-      logo_path: "ibm_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
-      alt_name: "IBM",
-      color_code: "#1F70C199",
+      logo_path: "success-tracker.jpg",
+      certificate_link: "https://github.com/jamessnguyenn/Success-Tracker",
+      color_code: "#EEFBFB",
     },
 
     {
       title: "Stock Case",
       subtitle: "Android Application to view and store stocks in your case",
-      logo_path: "google_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/5JZZM7TNQ2AV",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
+      logo_path: "stock-case.png",
+      certificate_link: "https://github.com/jamessnguyenn/Stock-Case",
+      color_code: "#AAAAAA",
     },
     {
       title: "Tic Tac Toe Bot",
       subtitle:
         "Play head to head with a Tic Tac Toe Bot and view past game histories",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/6T4DCUGNK8J8",
-      alt_name: "deeplearning.ai",
+      logo_path: "tic-tac-toe.jpg",
+      certificate_link: "https://github.com/jamessnguyenn/Tic-Tac-Toe-Bot",
       color_code: "#00000099",
     },
   ],
@@ -419,26 +407,26 @@ const experience = {
       title: "Work Experience",
       experiences: [
         {
+          title: "Software Engineer Intern",
+          company: "Varian Medical Systems",
+          company_url: "https://www.varian.com/",
+          logo_path: "varian_logo.jpg",
+          duration: "MAY 2021 - AUG 2021",
+          location: "Palo Alto, California",
+          description:
+            "•	Developed and executed Python automation test scripts for the TrueBeam radiotherapy treatment application which reduced 86+ hours of manual testing per release cycle/n•	Analyzed and verified 20+ control safety requirements through UI automation of end-to-end workflows and test plans devised using Quality Center/n•	Collaborated with team members by contributing to daily SCRUM meetings, participating in code reviews, and utilizing Azure DevOps Server for version control/n•	Resolved bugs and contributed code to the internal testing framework that is shared by multiple teams",
+          color: "#0879bf",
+        },
+        {
           title: "Software Quality Assurance Intern",
           company: "NETGEAR",
           company_url: "https://www.netgear.com/",
           logo_path: "netgear_logo.png",
-          duration: "Nov 2020 - PRESENT",
+          duration: "NOV 2020 - MAY 2021",
           location: "San Jose, California",
           description:
             "• Perform end to end testing on Nighthawk and Orbi mobile applications by verifying integration of cloud account features, connection of routers, and implementation of software subscription services /n • Design and execute test plans to identify 50+ bugs and ensure new features are aligning with the acceptance criteria before application releases /n • Coordinate with product development engineers to diagnose product failures by practicing Agile lifecycle methodologies and managing SQA tickets through JIRA/n• Collaborate with the Software QA team by delivering daily status updates and training new interns",
           color: "#0879bf",
-        },
-        {
-          title: "Electronics & Mobile Team Member",
-          company: "Target",
-          company_url: "https://www.target.com/",
-          logo_path: "target_logo.png",
-          duration: "July 2018 - Sept 2020",
-          location: "San Jose, California",
-          description:
-            "• Enhanced customer satisfaction by informing clients about new product launches and offering solutions to fulfill their needs/n• Executed activations and upgrades of various wireless phone plans as well as troubleshooted any emerging technical issues/n• Improved sales by overseeing cashflow within the department and managing inventory to meet customer needs/n• Maximized sales of electronic merchandise through demonstrations of product functionalities to customers",
-          color: "#9b1578",
         },
         {
           title: "Industrial Chair",
@@ -446,22 +434,11 @@ const experience = {
             "Society of Asian Scientist and Engineers (SASE) - San Jose University Chapter",
           company_url: "https://sase-sjsu.weebly.com/",
           logo_path: "sase_logo.jpg",
-          duration: "Aug 2020 - PRESENT",
+          duration: "AUG 2020 - MAY 2021",
           location: "San Jose, California",
           description:
             "• Collaborate with various companies to devise networking opportunities for 30+ members through events such as resume workshops and career panels/n• Increase membership retention by 300% through the improvement of the mentorship process and integration of a “kick-starter” program that allow members to participate in a semester-long technical project",
           color: "#4285F4",
-        },
-        {
-          title: "Props & Design Director",
-          company: "SJSU Vietnamese Student Association",
-          company_url: "https://www.linkedin.com/company/sjsuvsa/",
-          logo_path: "vsa_logo.jpg",
-          duration: "Sept 2019 - May 2020",
-          location: "San Jose, California",
-          description:
-            "• Headed the Props & Design Team by organizing and leading weekly meetings to develop operational strategies and ideas for the Annual Culture Show/n• Directed team members by creating timelines, ensuring deadlines are met, and developing instructions to provide greater visibility for prop production",
-          color: "#D83B01",
         },
       ],
     },
