@@ -1,10 +1,9 @@
 import React, { Component } from "react";
-import Header from "../../components/header/Header";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 import { Fade } from "react-reveal";
 import "./ContactComponent.css";
-import { greeting, contactPageData } from "../../portfolio.js";
+import { contactPageData } from "../../portfolio.js";
 
 const ContactData = contactPageData.contactSection;
 
@@ -20,6 +19,7 @@ class Contact extends Component {
                 <h1
                   className="contact-heading-text"
                   style={{ color: theme.text }}
+                  id="contact"
                 >
                   {ContactData["title"]}
                 </h1>

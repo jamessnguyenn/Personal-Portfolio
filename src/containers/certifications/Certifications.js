@@ -14,6 +14,7 @@ class Certifications extends Component {
             <h1
               className="experience-heading-text"
               style={{ color: theme.text }}
+              id="project"
             >
               Projects
             </h1>

@@ -1,7 +1,5 @@
 import React, { Component } from "react";
-import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
-import TopButton from "../../components/topButton/TopButton";
 
 import CompetitiveSites from "../../components/competitiveSites/CompetitiveSites";
 import { competitiveSites } from "../../portfolio";
@@ -29,7 +27,6 @@ class Education extends Component {
           </Fade>
         </div>
         <Footer theme={this.props.theme} />
-        <TopButton theme={this.props.theme} />
       </div>
     );
   }

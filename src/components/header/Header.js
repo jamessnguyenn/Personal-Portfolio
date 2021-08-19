@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./Header.css";
 import { Fade } from "react-reveal";
 import Headroom from "react-headroom";
-import { NavLink, Link } from "react-router-dom";
+import { NavHashLink } from "react-router-hash-link";
 import { greeting, settings } from "../../portfolio.js";
 import SeoHeader from "../seoHeader/SeoHeader";
 
@@ -27,22 +27,21 @@ class Header extends Component {
           <SeoHeader />
           <div>
             <header className="header">
-              <NavLink to={link} tag={Link} className="logo">
+              <NavHashLink to="/#" className="logo">
                 <span style={{ color: theme.text }}> &lt;</span>
                 <span className="logo-name" style={{ color: theme.text }}>
                   {greeting.logo_name}
                 </span>
                 <span style={{ color: theme.text }}>/&gt;</span>
-              </NavLink>
+              </NavHashLink>
               <input className="menu-btn" type="checkbox" id="menu-btn" />
               <label className="menu-icon" htmlFor="menu-btn">
                 <span className="navicon"></span>
               </label>
               <ul className="menu" style={{ backgroundColor: theme.body }}>
                 <li>
-                  <NavLink
-                    to="/home"
-                    tag={Link}
+                  <NavHashLink
+                    to="/#"
                     activeStyle={{ fontWeight: "bold" }}
                     style={{ color: theme.text }}
                     onMouseEnter={(event) =>
@@ -51,12 +50,11 @@ class Header extends Component {
                     onMouseOut={(event) => onMouseOut(event)}
                   >
                     Home
-                  </NavLink>
+                  </NavHashLink>
                 </li>
                 <li>
-                  <NavLink
-                    to="/experience"
-                    tag={Link}
+                  <NavHashLink
+                    to="/#experience"
                     activeStyle={{ fontWeight: "bold" }}
                     style={{ color: theme.text }}
                     onMouseEnter={(event) =>
@@ -65,12 +63,11 @@ class Header extends Component {
                     onMouseOut={(event) => onMouseOut(event)}
                   >
                     Experience
-                  </NavLink>
+                  </NavHashLink>
                 </li>
                 <li>
-                  <NavLink
-                    to="/projects"
-                    tag={Link}
+                  <NavHashLink
+                    to="/#project"
                     activeStyle={{ fontWeight: "bold" }}
                     style={{ color: theme.text }}
                     onMouseEnter={(event) =>
@@ -79,12 +76,11 @@ class Header extends Component {
                     onMouseOut={(event) => onMouseOut(event)}
                   >
                     Projects
-                  </NavLink>
+                  </NavHashLink>
                 </li>
                 <li>
-                  <NavLink
-                    to="/education"
-                    tag={Link}
+                  <NavHashLink
+                    to="/#skill"
                     activeStyle={{ fontWeight: "bold" }}
                     style={{ color: theme.text }}
                     onMouseEnter={(event) =>
@@ -93,13 +89,12 @@ class Header extends Component {
                     onMouseOut={(event) => onMouseOut(event)}
                   >
                     Skills
-                  </NavLink>
+                  </NavHashLink>
                 </li>
 
                 <li>
-                  <NavLink
-                    to="/contact"
-                    tag={Link}
+                  <NavHashLink
+                    to="/#contact"
                     activeStyle={{ fontWeight: "bold" }}
                     style={{ color: theme.text }}
                     onMouseEnter={(event) =>
@@ -108,7 +103,7 @@ class Header extends Component {
                     onMouseOut={(event) => onMouseOut(event)}
                   >
                     Contact Me
-                  </NavLink>
+                  </NavHashLink>
                 </li>
               </ul>
             </header>

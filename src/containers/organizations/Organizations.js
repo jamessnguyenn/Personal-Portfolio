@@ -14,6 +14,7 @@ class Organizations extends Component {
             <h1
               className="experience-heading-text"
               style={{ color: theme.text }}
+              id="skill"
             >
               Technical Skillset
             </h1>
