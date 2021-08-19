@@ -10,7 +10,6 @@ import Contact from "../../pages/contact/ContactComponent";
 import Certifications from "../../containers/certifications/Certifications";
 class Home extends Component {
   render() {
-    console.log(this.props.theme);
     return (
       <div>
         <Header theme={this.props.theme} />

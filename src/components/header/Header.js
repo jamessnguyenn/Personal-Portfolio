@@ -3,7 +3,7 @@ import "./Header.css";
 import { Fade } from "react-reveal";
 import Headroom from "react-headroom";
 import { NavHashLink } from "react-router-hash-link";
-import { greeting, settings } from "../../portfolio.js";
+import { greeting } from "../../portfolio.js";
 import SeoHeader from "../seoHeader/SeoHeader";
 
 const onMouseEnter = (event, color) => {
@@ -19,8 +19,7 @@ const onMouseOut = (event) => {
 class Header extends Component {
   render() {
     const theme = this.props.theme;
-    console.log(theme);
-    const link = settings.isSplash ? "/splash" : "home";
+
     return (
       <Headroom>
         <Fade top duration={1000} distance="20px">

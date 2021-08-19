@@ -42,6 +42,7 @@ class Contact extends Component {
               <div className="contact-heading-img-div">
                 <img
                   src={require(`../../assests/images/${ContactData["profile_image_path"]}`)}
+                  alt="Two people talking"
                 />
               </div>
             </div>

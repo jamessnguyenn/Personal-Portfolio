@@ -23,6 +23,7 @@ class CertificationCard extends Component {
                 <img
                   className="logo_img"
                   src={require(`../../assests/images/${certificate.logo_path}`)}
+                  alt="project"
                 />
               </div>
               <div className="content-details fadeIn-top">
