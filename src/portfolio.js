@@ -16,7 +16,7 @@ const greeting = {
   title: "James Nguyen",
   logo_name: "James Nguyen",
   subTitle:
-    "Hello! I'm a former Software Engineer at Varian and a Computer Science Major graduating in December 2021. Check out my experience and skills below!",
+    "Hello! I'm a former Software Engineer Intern at Varian and a Computer Science Major graduating in December 2021. Check out my experience and skills below!",
 };
 
 const socialMediaLinks = [
