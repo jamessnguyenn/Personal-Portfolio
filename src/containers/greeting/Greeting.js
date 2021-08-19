@@ -50,8 +50,8 @@ export default function Greeting(props) {
               <div className="portfolio-repo-btn-div">
                 <Button
                   text="View My Experience"
-                  newTab={true}
-                  href={greeting.portfolio_repository}
+                  newTab={false}
+                  href="#experience"
                   theme={theme}
                   className="portfolio-repo-btn"
                 />
