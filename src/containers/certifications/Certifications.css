@@ -11,6 +11,11 @@
   flex-wrap: wrap;
 }
 
+#certs {
+  width: 90%;
+  padding: 20px 10px;
+  margin: 0px auto;
+}
 @media (max-width: 1380px) {
   .certs-header {
     font-size: 35px;

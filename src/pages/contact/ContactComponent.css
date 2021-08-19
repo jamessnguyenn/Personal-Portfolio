@@ -1,5 +1,6 @@
 .contact-main {
   width: 100%;
+  margin-bottom: 100px;
 }
 
 .basic-contact {
@@ -33,6 +34,7 @@
 }
 
 .contact-heading-img-div {
+  margin: auto;
   align-items: center;
   justify-content: center;
 }
@@ -55,8 +57,9 @@
 }
 
 .contact-heading-img-div > * {
-  max-width: 100%;
+  max-width: 65%;
   height: auto;
+  margin-left: 15%;
 }
 
 .blog-heading-img-div > * {
@@ -139,6 +142,9 @@
 }
 
 @media (max-width: 768px) {
+  .contact-heading-img-div > * {
+    visibility: hidden;
+  }
   .contact-heading-text {
     font-size: 30px;
     margin-top: 0px;

@@ -59,7 +59,7 @@ export default function Greeting(props) {
                 <Button
                   text="Checkout My Resume"
                   newTab={true}
-                  href={greeting.resumeLink}
+                  href="Resume_Nguyen_James.pdf"
                   theme={theme}
                 />
               </div>

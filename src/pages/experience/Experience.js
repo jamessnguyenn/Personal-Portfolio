@@ -31,8 +31,6 @@ class Experience extends Component {
             />
           </Fade>
         </div>
-
-        <TopButton theme={this.props.theme} />
       </div>
     );
   }

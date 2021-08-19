@@ -3,6 +3,62 @@
     {
       "login": "Python",
       "className": "logos:python"
+    },
+    {
+      "login": "Java",
+      "className": "logos:java"
+    },
+    {
+      "login": "C",
+      "className": "logos:c"
+    },
+    {
+      "login": "HTML",
+      "className": "logos:html-5"
+    },
+    {
+      "login": "CSS",
+      "className": "logos:css-3"
+    },
+    {
+      "login": "React.js",
+      "className": "vscode-icons:file-type-reactjs"
+    },
+    {
+      "login": "Javascript",
+      "className": "logos:javascript"
+    },
+    {
+      "login": "Node.js",
+      "className": "logos:nodejs"
+    },
+    {
+      "login": "SQL",
+      "className": "vscode-icons:file-type-sql"
+    },
+    {
+      "login": "MongoDB",
+      "className": "logos:mongodb"
+    },
+    {
+      "login": "Android Studio",
+      "className": "mdi:android-studio"
+    },
+    {
+      "login": "Jira",
+      "className": "logos:jira"
+    },
+    {
+      "login": "Git",
+      "className": "logos:git"
+    },
+    {
+      "login": "Confluence",
+      "className": "logos:confluence"
+    },
+    {
+      "login": "Visual Studio",
+      "className": "logos:visual-studio"
     }
   ]
 }
