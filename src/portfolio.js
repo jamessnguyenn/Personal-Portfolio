@@ -16,7 +16,7 @@ const greeting = {
   title: "James Nguyen",
   logo_name: "James Nguyen",
   subTitle:
-    "Hello! I'm a former Software Engineer Intern at Varian and a Computer Science Major graduating in December 2021. Check out my experience and skills below!",
+    "Hello! I'm an incoming Software Engineer at Amazon and a recent graduate from San Jose State University. Check out my experience and skills below!",
 };
 
 const socialMediaLinks = [
@@ -50,7 +50,7 @@ const degrees = {
       duration: "December 2021",
       descriptions: [
         "Organizations: Society of Asian Scientists & Engineers, Vietnamese Student Association, Circle K",
-        "Achievements: Dean's Scholar, President's Scholar",
+        "Achievements: Summa Cum Laude, Dean's Scholar, President's Scholar",
       ],
       organizations: "",
       website_link: "https://www.sjsu.edu/",
@@ -68,11 +68,11 @@ const certifications = {
       color_code: "#000000",
     },
     {
-      title: "Edufy.space",
-      subtitle: "A productivity platform to edge your education",
-      logo_path: "edufy-logo.jpg",
-      certificate_link: "https://devpost.com/software/eudfy-education-for-you",
-      color_code: "#437fc7",
+      title: "EZ Apply",
+      subtitle: "Platform to easily apply for jobs and manage your talent pool",
+      logo_path: "ez-apply.jpg",
+      certificate_link: "https://github.com/jamessnguyenn/EZ-Apply",
+      color_code: "#4d8dff",
     },
     {
       title: "Spotify Party Player",
@@ -80,6 +80,13 @@ const certifications = {
       logo_path: "spotify-logo.png",
       certificate_link: "https://github.com/jamessnguyenn/Spotify-Party-Player",
       color_code: "#0C9D5899",
+    },
+    {
+      title: "Edufy.space",
+      subtitle: "A productivity platform to edge your education",
+      logo_path: "edufy-logo.jpg",
+      certificate_link: "https://devpost.com/software/eudfy-education-for-you",
+      color_code: "#437fc7",
     },
     {
       title: "Success Tracker",
@@ -96,27 +103,26 @@ const certifications = {
       certificate_link: "https://github.com/jamessnguyenn/Stock-Case",
       color_code: "#AAAAAA",
     },
-    {
-      title: "Tic Tac Toe Bot",
-      subtitle:
-        "Play head to head with a Tic Tac Toe Bot and view past game histories",
-      logo_path: "tic-tac-toe.jpg",
-      certificate_link: "https://github.com/jamessnguyenn/Tic-Tac-Toe-Bot",
-      color_code: "#00000099",
-    },
   ],
 };
 
 // Experience Page
 const experience = {
   title: "Experiences",
-  description:
-    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
-  header_image_path: "experience.svg",
   sections: [
     {
       title: "Work Experience",
       experiences: [
+        {
+          title: "Incoming Software Development Engineer",
+          company: "Amazon",
+          company_url: "https://www.amazon.com/",
+          logo_path: "amazon-logo.jpg",
+          duration: "PRESENT",
+          location: "Seattle, Washington",
+          description: "",
+          color: "#0879bf",
+        },
         {
           title: "Software Engineer Intern",
           company: "Varian Medical Systems",

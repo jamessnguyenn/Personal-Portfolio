@@ -59,6 +59,22 @@
     {
       "login": "Visual Studio",
       "className": "logos:visual-studio"
+    },
+    {
+      "login": "Scheme",
+      "className": "vscode-icons:file-type-racket"
+    },
+    {
+      "login": "Ruby",
+      "className": "logos:ruby"
+    },
+    {
+      "login": "Rust",
+      "className": "vscode-icons:file-type-rust"
+    },
+    {
+      "login": "Prolog",
+      "className": "vscode-icons:file-type-prolog"
     }
   ]
 }

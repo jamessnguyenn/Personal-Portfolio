@@ -31,13 +31,16 @@ export default function Greeting(props) {
                   Software Engineer
                 </h2>
                 <h2 className="greeting-nickname" style={{ color: theme.text }}>
-                  Student Leader
+                  SJSU Graduate
                 </h2>
                 <h2 className="greeting-nickname" style={{ color: theme.text }}>
                   Computer Scientist
                 </h2>
                 <h2 className="greeting-nickname" style={{ color: theme.text }}>
                   President's Scholar
+                </h2>
+                <h2 className="greeting-nickname" style={{ color: theme.text }}>
+                  Tech Leader
                 </h2>
               </TextLoop>
               <p
